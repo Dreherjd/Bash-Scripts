@@ -1,3 +1,5 @@
+# asks user for a commit message and pushes up current git directory
+
 #!/bin/bash
 DIR=$(pwd)
 cd "#DIR"
