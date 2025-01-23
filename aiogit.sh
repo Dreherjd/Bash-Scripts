@@ -2,7 +2,7 @@
 
 #!/bin/bash
 DIR=$(pwd)
-cd "#DIR"
+cd "$DIR"
 read -p "Git commit Message: " COMMIT
 git add .
 git commit -m "$COMMIT"
