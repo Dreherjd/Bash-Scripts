@@ -1,4 +1,6 @@
 # asks user for a commit message and pushes up current git directory
+# must be called with the full path
+# ~/Documents/bashScripts/aiogit.sh
 #!/bin/bash
 # get current directory
 DIR=$(pwd)
