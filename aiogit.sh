@@ -7,7 +7,7 @@ DIR=$(pwd)
 #cd into it
 cd "$DIR"
 #get the commit message from the user
-read -p "Git commit Message: " COMMIT
+read -p "Commit Message: " COMMIT
 #do the git stuff
 git add .
 git commit -m "$COMMIT"
